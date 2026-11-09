@@ -110,6 +110,14 @@ The illustrative incident affected 0.003% of greetings, none of which
 actually happened. Its most important outcome was the recommendation
 to add middleware rather than fix a string.
 
+## Compliance
+
+HelloWorld™ processes no personal data and contains no plumbing. Both facts
+have been formally assessed.
+
+- [Data Protection Notice and DPIA](./docs/compliance/DATA_PROTECTION.md) — UK GDPR, lawful basis, and the right to erase the World
+- [Facilities and Welfare Compliance Statement](./docs/compliance/FACILITIES_AND_WELFARE.md) — sanitary provision, and who owns the toilet policy (nobody)
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md). All contributors must sign the CLA
