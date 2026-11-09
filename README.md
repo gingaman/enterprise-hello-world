@@ -95,6 +95,21 @@ kubectl apply -f k8s/
 - **Mean time to greet:** < 10ms
 - **Error budget burn rate alert:** 2× for 1h, 14× for 6h
 
+## Enterprise Greeting Governance
+
+The **Greeting Change Advisory Board (GCAB)** supervises all changes to
+punctuation, including the removal, insertion or strategic repositioning of
+the exclamation mark. A **90-calendar-day rollback window** applies to
+approved punctuation changes.
+
+- [GCAB charter and change-control policy](./docs/governance/GREETING_CHANGE_ADVISORY_BOARD.md)
+- [SEV-1: Global Salutation Degradation (fictional incident)](./docs/incidents/SEV-001-global-salutation-degradation.md)
+- [ADR-0042: Punctuation Assurance Middleware (proposed, not implemented)](./docs/adr/ADR-0042-punctuation-assurance-middleware.md)
+
+The illustrative incident affected 0.003% of greetings, none of which
+actually happened. Its most important outcome was the recommendation
+to add middleware rather than fix a string.
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md). All contributors must sign the CLA
