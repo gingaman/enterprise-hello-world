@@ -110,6 +110,20 @@ The illustrative incident affected 0.003% of greetings, none of which
 actually happened. Its most important outcome was the recommendation
 to add middleware rather than fix a string.
 
+## Enterprise Salutation Transformation 2.1
+
+The strategic response to a single line of terminal output now includes seven
+fictional workstreams, a self-healing reinterpretation of Kubernetes restarts,
+and an executive dashboard which measures organisational confidence rather
+than operational evidence. **These are satirical proposals, not implemented
+features or claims about real system behaviour.**
+
+- [2.1 transformation portfolio and seven linked initiatives](./docs/strategy/HELLOWORLD_2_1_TRANSFORMATION.md)
+- [Self-Healing Salutation Framework (fictional proposal)](./docs/operations/SELF_HEALING_SALUTATION.md)
+- [SEV-2: Autonomous Recovery Saturation (fictional incident)](./docs/incidents/SEV-002-autonomous-recovery-saturation.md)
+- [Executive dashboard: mock data and notes](./docs/dashboard/EXECUTIVE_DASHBOARD.md) ([standalone static HTML](./docs/dashboard/index.html))
+- [Fictional board minutes: the 24-month transformation decision](./docs/board/BOARD-MINUTES-2026-11-09.md)
+
 ## Compliance
 
 HelloWorld™ processes no personal data and contains no plumbing. Both facts

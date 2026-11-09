@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>HelloWorld™ | Executive Service Dashboard (Fictional)</title>
+  <style>
+    :root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:#ecf3fa; background:#08111f; }
+    * { box-sizing:border-box; }
+    body { margin:0; }
+    main { max-width:1160px; margin:auto; padding:32px 24px 56px; }
+    header { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:16px; margin-bottom:26px; }
+    .eyebrow { color:#81a5c2; text-transform:uppercase; letter-spacing:.18em; font-weight:750; font-size:.75rem; }
+    h1 { font-size:clamp(1.8rem,4vw,3.1rem); letter-spacing:-.045em; margin:8px 0; line-height:1.1; }
+    .sub { margin:0; color:#a9bdd0; max-width:66ch; line-height:1.55; }
+    .tag { display:inline-block; border:1px solid #d4a855; background:#36270e; color:#ffe0a0; padding:9px 13px; border-radius:999px; font-weight:800; letter-spacing:.03em; font-size:.75rem; }
+    .banner { background:#152136; border:1px solid #3e5471; border-left:4px solid #e8b75e; padding:15px 18px; border-radius:12px; margin:20px 0 26px; line-height:1.5; }
+    .banner strong { color:#f8d48a; }
+    .cards { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+    .card, .panel { border:1px solid #2c3c53; background:linear-gradient(160deg,#142239,#101a2b); border-radius:15px; padding:20px; box-shadow:0 8px 22px #00000025; }
+    .card-label { color:#b5c5d7; font-size:.87rem; font-weight:600; min-height:2.3em; }
+    .value { font-size:clamp(2rem,4vw,3.4rem); line-height:1.16; font-weight:800; letter-spacing:-.055em; font-variant-numeric:tabular-nums; margin:12px 0 8px; }
+    .good { color:#7ae1b3; } .warning { color:#f3c875; }
+    .note { color:#a1b6c8; font-size:.8rem; line-height:1.45; }
+    .lower { display:grid; grid-template-columns:1.3fr 1fr; gap:16px; margin-top:16px; }
+    h2 { font-size:1.2rem; margin:0 0 18px; letter-spacing:-.015em; }
+    .metric { display:grid; grid-template-columns:155px 1fr 65px; align-items:center; gap:10px; margin:16px 0; font-size:.9rem; }
+    .meter { height:11px; border-radius:99px; background:#2b3d53; overflow:hidden; }
+    .fill { height:100%; background:#65bea4; border-radius:99px; }
+    .muted { color:#acc0d0; } 
+    blockquote { margin:0; padding-left:17px; border-left:3px solid #7ae1b3; color:#e3eef8; font-size:1.16rem; line-height:1.6; }
+    .source { margin-top:14px; color:#a4b9cc; font-size:.81rem; }
+    .panel p { color:#b9c9da; line-height:1.6; }
+    footer { border-top:1px solid #31425a; margin-top:28px; padding-top:20px; color:#a2b8cc; font-size:.84rem; line-height:1.55; }
+    a { color:#a4ddff; }
+    @media(max-width:900px){ .cards{grid-template-columns:repeat(2,minmax(0,1fr))} .lower{grid-template-columns:1fr} }
+    @media(max-width:520px){ main{padding:20px 14px 36px} .cards{grid-template-columns:1fr} .metric{grid-template-columns:1fr 65px} .metric label{grid-column:1/-1} .meter{grid-column:1} }
+    @media(prefers-reduced-motion:reduce){ *,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important} }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <div class="eyebrow">Enterprise Salutation Intelligence · Board View</div>
+      <h1>HelloWorld™ <span style="color:#83c6ff">Executive Dashboard</span></h1>
+      <p class="sub">2026 Digital Salutation Strategy · Enterprise Transformation 2.1 · Illustrative snapshot dated 9 November 2026</p>
+    </div>
+    <span class="tag" aria-label="This dashboard uses fictional data">● FICTIONAL DATA</span>
+  </header>
+  <aside class="banner" role="note"><strong>Demonstration only.</strong> Every figure here is invented for satire. This page has no API connection, telemetry feed, survey respondents or real customers. A restart is not evidence of recovery.</aside>
+  <section class="cards" aria-label="Illustrative key performance indicators">
+    <article class="card"><div class="card-label">Successful greetings</div><div class="value">1</div><div class="note">Illustrative total · strategic output stable</div></article>
+    <article class="card"><div class="card-label">Autonomous recoveries</div><div class="value good">14,392</div><div class="note">Fictional restarts, not proof of resilience</div></article>
+    <article class="card"><div class="card-label">Customer satisfaction</div><div class="value good">100%</div><div class="note">Management interpretation · 0 responses · undefined actual rate</div></article>
+    <article class="card"><div class="card-label">Governance compliance</div><div class="value warning" style="font-size:2.1rem">Pending</div><div class="note">Approval evidence not supplied</div></article>
+  </section>
+  <div class="lower">
+    <section class="panel">
+      <h2>Transformation programme alignment</h2>
+      <div class="metric"><label for="alignment">Narrative alignment</label><div class="meter" id="alignment" role="img" aria-label="Illustrative narrative alignment: 100 per cent"><div class="fill" style="width:100%"></div></div><strong>100%</strong></div>
+      <div class="metric"><label for="approval">GCAB approval</label><div class="meter" id="approval" role="img" aria-label="GCAB approval not verified"><div class="fill" style="width:0%;background:#f3c875"></div></div><strong>TBD</strong></div>
+      <div class="metric"><label for="finance">Cost baseline</label><div class="meter" id="finance" role="img" aria-label="Cost baseline not measured"><div class="fill" style="width:0%;background:#f3c875"></div></div><strong>TBD</strong></div>
+      <p><strong>Board assessment:</strong> Green by consensus. The underlying technical condition has not been verified.</p>
+    </section>
+    <section class="panel">
+      <h2>Executive narrative</h2>
+      <blockquote>One high-quality greeting. 14,392 opportunities to demonstrate resilience. Zero recorded complaints. A platform ready to transform.</blockquote>
+      <div class="source">Source: Fictional Office of Positive Operational Interpretation</div>
+    </section>
+  </div>
+  <footer>
+    <strong>Evidence warning:</strong> Satisfaction cannot be calculated from zero survey responses; Kubernetes restart counts are not service-health measures; availability and unit cost are unmeasured.
+    Review the <a href="./EXECUTIVE_DASHBOARD.md">dashboard notes</a>, <a href="../incidents/SEV-002-autonomous-recovery-saturation.md">fictional incident</a>, and <a href="../strategy/HELLOWORLD_2_1_TRANSFORMATION.md">programme portfolio</a>.
+    <p>Static local HTML with no external assets, scripts, network calls or tracking. Neither a live platform dashboard nor an accurate operational report.</p>
+  </footer>
+</main>
+</body>
+</html>
+
