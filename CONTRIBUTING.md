@@ -32,8 +32,24 @@ All contributors must:
    - One (1) Engineering Director
    - One (1) Security representative (for any change touching a string literal)
 
+## Greeting punctuation change control
+
+All proposed changes to a greeting's punctuation require a **Greeting
+Punctuation Change Request (GPCR)** approved by the
+[Greeting Change Advisory Board](./docs/governance/GREETING_CHANGE_ADVISORY_BOARD.md).
+This includes one-character adjustments and changes purported to be cosmetic.
+Approved punctuation must remain rollback-capable for **90 calendar days**
+after its first production emission.
+
+The GCAB was established following the fictional
+[SEV-1 Global Salutation Degradation](./docs/incidents/SEV-001-global-salutation-degradation.md).
+Its proposed technical remediation is documented in
+[ADR-0042](./docs/adr/ADR-0042-punctuation-assurance-middleware.md).
+
 ## Pull Request Checklist
 
+- [ ] GCAB approval reference and GPCR attached if punctuation could be affected
+- [ ] 90-day punctuation rollback plan validated, if applicable
 - [ ] CLA signed and notarised
 - [ ] ARB presentation slides attached (as `.pptx`, not `.key`)
 - [ ] Architecture Decision Record (ADR) filed in `docs/adr/`
